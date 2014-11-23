@@ -1,0 +1,10 @@
+             total       used       free     shared    buffers     cached
+Mem:      70261196   65135612    5125584          0    5135600   23081000
+-/+ buffers/cache:   36919012   33342184
+Swap:    134011696   22629736  111381960
+Filesystem      1K-blocks       Used  Available Use% Mounted on
+/dev/root      4056728376 2341571252 1542443916  61% /
+none              7026120         40    7026080   1% /run
+none                 5120          0       5120   0% /run/lock
+none             35130596          0   35130596   0% /run/shm
+12	.

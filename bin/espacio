@@ -1,0 +1,15 @@
+#!/bin/sh                                                                             
+#                                                                                
+# Comprobar espacio  memoria
+set PIDNUM=""
+echo `ps -C ps -o ppid=`
+export PIDNUM=`ps -C ps -o ppid=`                                       
+echo "Generating report $PIDNUM  "  
+read A
+free > ~/sistemabierto/result/$PIDNUM                                                   
+df >> ~/sistemabierto/result/$PIDNUM                                                    
+du . >> ~/sistemabierto/result/$PIDNUM 
+echo "Pulse INTRO"                                                               
+read A                                                                           
+cat ~/sistemabierto/result/$PIDNUM 
+exit 0
