@@ -1,6 +1,6 @@
-# Welcome to sistemabierto
-Este sistema proveerá utilidades para sistemas linux, independientemente de la plataforma
-debian, ubuntu, suse, redhat,...
+# Welcome to sistemabierto 
+Este sistema proveerá utilidades para sistemas linux, principalmente pruebas con shell,
+independientemente de la plataforma, ubuntu, suse, ...
 
-Novedades en squiralte1@gmail.com
+
 
